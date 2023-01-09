@@ -1,0 +1,119 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "79007ba95ebbeadcdf57da714bd57fae",
+    "packages": [
+        {
+            "name": "themehybrid/hybrid-contracts",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/themehybrid/hybrid-contracts.git",
+                "reference": "71cc43a0f00052449b62041ee308a5db9b3e4079"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/themehybrid/hybrid-contracts/zipball/71cc43a0f00052449b62041ee308a5db9b3e4079",
+                "reference": "71cc43a0f00052449b62041ee308a5db9b3e4079",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Hybrid\\Contracts\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Tadlock",
+                    "email": "justintadlock@gmail.com",
+                    "homepage": "http://justintadlock.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Contracts for the Hybrid Core framework.",
+            "homepage": "https://github.com/themehybrid/hybrid-contracts",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "forum": "https://themehybrid.com/board/forums/hybrid-core",
+                "issues": "https://github.com/themehybrid/hybrid-contracts/issues",
+                "source": "https://github.com/themehybrid/hybrid-contracts/tree/1.0.0"
+            },
+            "time": "2021-07-31T19:23:47+00:00"
+        },
+        {
+            "name": "themehybrid/hybrid-core",
+            "version": "6.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/themehybrid/hybrid-core.git",
+                "reference": "668b404121117ab9b348fbe17d8e77c98c9a6c70"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/themehybrid/hybrid-core/zipball/668b404121117ab9b348fbe17d8e77c98c9a6c70",
+                "reference": "668b404121117ab9b348fbe17d8e77c98c9a6c70",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "themehybrid/hybrid-contracts": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/functions-helpers.php"
+                ],
+                "psr-4": {
+                    "Hybrid\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Tadlock",
+                    "email": "justintadlock@gmail.com",
+                    "homepage": "http://justintadlock.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Hybrid Core: A framework for developing modern WordPress plugins and themes.",
+            "homepage": "https://themehybrid.com/hybrid-core",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "forum": "https://themehybrid.com/board/forums/hybrid-core",
+                "issues": "https://github.com/themehybrid/hybrid-core/issues",
+                "source": "https://github.com/themehybrid/hybrid-core/tree/6.0.0"
+            },
+            "time": "2021-08-01T18:21:12+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

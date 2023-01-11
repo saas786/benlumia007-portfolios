@@ -8,7 +8,7 @@
  * Text Domain: portfolios
  * Domain Path: /languages
  * Version:     2.0.4
- * 
+ *
  * @package   Backdrop Post Types
  * @author    Benjamin Lu <benlumia007@gmail.com>
  * @copyright Copyright (C) 2019-2021. Benjamin Lu
@@ -42,3 +42,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 if ( file_exists( plugin_dir_path( __FILE__ ) . '/vendor/autoload.php' ) ) {
 	require_once plugin_dir_path( __FILE__ ) . '/vendor/autoload.php';
 }
+
+require_once plugin_dir_path( __FILE__ ) . '/app/framework.php';

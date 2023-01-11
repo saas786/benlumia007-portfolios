@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79007ba95ebbeadcdf57da714bd57fae",
+    "content-hash": "084d37c23370505ee0ab80d4fdc3e3a3",
     "packages": [
         {
             "name": "themehybrid/hybrid-contracts",
@@ -55,16 +55,16 @@
         },
         {
             "name": "themehybrid/hybrid-core",
-            "version": "6.0.0",
+            "version": "6.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/themehybrid/hybrid-core.git",
-                "reference": "668b404121117ab9b348fbe17d8e77c98c9a6c70"
+                "reference": "7b7fae483f9cf42cbffae7a54639971466462ced"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/themehybrid/hybrid-core/zipball/668b404121117ab9b348fbe17d8e77c98c9a6c70",
-                "reference": "668b404121117ab9b348fbe17d8e77c98c9a6c70",
+                "url": "https://api.github.com/repos/themehybrid/hybrid-core/zipball/7b7fae483f9cf42cbffae7a54639971466462ced",
+                "reference": "7b7fae483f9cf42cbffae7a54639971466462ced",
                 "shasum": ""
             },
             "require": {
@@ -86,9 +86,9 @@
             ],
             "authors": [
                 {
-                    "name": "Justin Tadlock",
-                    "email": "justintadlock@gmail.com",
-                    "homepage": "http://justintadlock.com",
+                    "name": "Theme Hybrid",
+                    "email": "themehybrid@gmail.com",
+                    "homepage": "https://themehybrid.com",
                     "role": "Developer"
                 }
             ],
@@ -100,9 +100,9 @@
             "support": {
                 "forum": "https://themehybrid.com/board/forums/hybrid-core",
                 "issues": "https://github.com/themehybrid/hybrid-core/issues",
-                "source": "https://github.com/themehybrid/hybrid-core/tree/6.0.0"
+                "source": "https://github.com/themehybrid/hybrid-core/tree/6.0.1"
             },
-            "time": "2021-08-01T18:21:12+00:00"
+            "time": "2022-06-27T14:16:40+00:00"
         }
     ],
     "packages-dev": [],
@@ -115,5 +115,5 @@
         "php": ">=8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.2.0"
 }
